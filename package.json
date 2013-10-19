@@ -1,0 +1,57 @@
+{
+  "name": "tome-game-lib",
+  "description": "This is the shared game lib & entity system used by the game Tome.",
+
+  "version": "0.0.1",
+  "homepage": "http://github.com/tome-game/game-lib",
+
+  "author": "Murray M. Moss <murray@mmoss.name>",
+  "license": "BSD-2-Clause",
+  "copyright": "Copyright (c) 2013 Murray M. Moss. All rights reserved.",
+
+  "directories": {
+    "lib": "./lib",
+    "src": "./src",
+    "test": "./test"
+  },
+
+  "scripts": {
+    "lib": "dist/tome-game-lib.js",
+    "test": "./node_modules/.bin/grunt",
+    "travis-cov": { "threshold": 100 }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tome-game/game-lib.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/tome-game/game-lib/issues"
+  },
+
+  "dependencies": {
+    "node-uuid": "*",
+    "lodash": "*"
+  },
+
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-text-replace": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-coffee-coverage": "*",
+    "grunt-mocha-test": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-browserify": "*",
+    "travis-cov": "*",
+    "mocha": "*",
+    "blanket": "*",
+    "sinon": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "coffee-script": "*"
+  }
+}
