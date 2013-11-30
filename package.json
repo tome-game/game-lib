@@ -1,9 +1,9 @@
 {
-  "name": "tome-entity-lib",
+  "name": "tome-game-lib",
   "description": "This is the shared game lib & entity system used by the game Tome.",
 
   "version": "0.0.1",
-  "homepage": "http://github.com/tome-game/entity-lib",
+  "homepage": "http://github.com/tome-game/game-lib",
 
   "author": "Murray M. Moss <murray@mmoss.name>",
   "license": "BSD-2-Clause",
@@ -23,11 +23,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/tome-game/entity-lib.git"
+    "url": "git://github.com/tome-game/game-lib.git"
   },
 
   "bugs": {
-    "url": "https://github.com/tome-game/entity-lib/issues"
+    "url": "https://github.com/tome-game/game-lib/issues"
   },
 
   "dependencies": {
